@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(150, 100%, 66%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="not-selectable">
+      <div class="container">
+        <div class="head">Advice #<span id="advice-id">201</span></div>
+        <div class="advice" id="advice">"Share Positive Energy"</div>
+        <div>
+          <picture>
+            <source
+              media="(max-width:400px )"
+              srcset="images/pattern-divider-mobile.svg"
+            />
+            <img
+              src="images/pattern-divider-desktop.svg"
+              alt="pattern-divider-desktop"
+            />
+          </picture>
+        </div>
+        <div class="btn" id="btn">
+          <img src="images/icon-dice.svg" alt="dice" />
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/surajCoder07">Suraj Singh</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
